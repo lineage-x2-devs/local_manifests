@@ -3,7 +3,6 @@
         <!-- LineageOS / lineage-o-x2 / device -->
         <project name="LineageOS/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="github" revision="lineage-15.1"/>
         <project name="LineageOS/android_device_leeco_x2" path="device/leeco/x2" remote="github" revision="lineage-15.1"/>
-        <project name="LineageOS/android_device_leeco_zl1" path="device/leeco/zl1" remote="github" revision="lineage-15.1"/>
         <project name="LineageOS/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="lineage-15.1"/>
 
 
