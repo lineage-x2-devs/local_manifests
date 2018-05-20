@@ -13,13 +13,14 @@ Starting from zero:
 If you've already synced Lineage-Sources:
 ----------
     mkdir -p .repo/local_manifests
-    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-15.1/local_manifest.xml > /path/to/lineage/.repo/local_manifests/my_manifest.xml
+    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-15.1/local_manifest.xml > .repo/local_manifests/my_manifest.xml
     repo sync
 
 Building
 ----------
-    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-15.1/clean_x2_build.sh > /path/to/lineage/clean_x2_build.sh
-    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-15.1/dirty_x2_build.sh > /path/to/lineage/dirty_x2_build.sh
+    cd /path/to/lineage
+    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-15.1/clean_x2_build.sh > clean_x2_build.sh
+    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-15.1/dirty_x2_build.sh > dirty_x2_build.sh
     . clean_x2_build.sh // for clean builds
     . dirty_x2_build.sh // for dirty builds
 
