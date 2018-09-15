@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <manifest>      
-        <!-- LineageOS / lineage-o-x2 / device -->
-        <project name="LineageOS/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="github" revision="lineage-15.1"/>
-        <project name="LineageOS/android_device_leeco_x2" path="device/leeco/x2" remote="github" revision="lineage-15.1"/>
-        <project name="LineageOS/android_device_leeco_zl1" path="device/leeco/zl1" remote="github" revision="lineage-15.1"/>
-        <project name="LineageOS/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="lineage-15.1"/>
+<manifest>      
+  <!-- device trees -->
+  <project name="LineageOS/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="github" revision="lineage-15.1"/>
+  <project name="LineageOS/android_device_leeco_x2" path="device/leeco/x2" remote="github" revision="lineage-15.1"/>
+  <project name="LineageOS/android_device_leeco_zl1" path="device/leeco/zl1" remote="github" revision="lineage-15.1"/>
 
+  <!-- dependencies -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1"/>
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1"/>
 
-        <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1"/>
-        <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1"/>
+  <!-- kernel -->
+  <project name="LineageOS/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="lineage-15.1"/>
 
-        <!-- TheMuppets / lineage-o-x2 / vendor -->
-        <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="lineage-15.1"/>
-
+  <!-- vendor / blobs -->
+  <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="lineage-15.1"/>
 </manifest>
-
