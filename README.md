@@ -1,26 +1,28 @@
 # Lineage buildscripts
 ========================
 
+Please note, I use ~/android/lineage in this README but you can use whatever folder name you want.
+
 Starting from zero:
 ---------
     mkdir -p ~/android/lineage
     cd ~/android/lineage
-    repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
+    repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
     mkdir -p .repo/local_manifests
-    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-15.1/local_manifest.xml > .repo/local_manifests/my_manifest.xml
+    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/local_manifest.xml > .repo/local_manifests/my_manifest.xml
     repo sync
 
 If you've already synced Lineage-Sources:
 ----------
     mkdir -p .repo/local_manifests
-    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-15.1/local_manifest.xml > .repo/local_manifests/my_manifest.xml
+    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/local_manifest.xml > .repo/local_manifests/my_manifest.xml
     repo sync
 
 Building
 ----------
-    cd /path/to/lineage
-    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-15.1/clean_x2_build.sh > clean_x2_build.sh
-    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-15.1/dirty_x2_build.sh > dirty_x2_build.sh
+    cd ~/android/lineage
+    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/clean_x2_build.sh > clean_x2_build.sh
+    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/dirty_x2_build.sh > dirty_x2_build.sh
     . clean_x2_build.sh // for clean builds
     . dirty_x2_build.sh // for dirty builds
 
