@@ -3,6 +3,8 @@
 
 Please note, I use ~/android/lineage in this README but you can use whatever folder name you want.
 
+Also please note that repopick.sh isn't always updated. Please check LineageOS Gerrit in case there is changes to repopick topics.
+
 Starting from zero:
 ---------
     mkdir -p ~/android/lineage
@@ -11,12 +13,16 @@ Starting from zero:
     mkdir -p .repo/local_manifests
     curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/local_manifest.xml > .repo/local_manifests/my_manifest.xml
     repo sync
+    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/repopick.sh > repopick.sh
+    . repopick.sh
 
 If you've already synced Lineage-Sources:
 ----------
     mkdir -p .repo/local_manifests
     curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/local_manifest.xml > .repo/local_manifests/my_manifest.xml
     repo sync
+    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/repopick.sh > repopick.sh
+    . repopick.sh
 
 Building
 ----------
