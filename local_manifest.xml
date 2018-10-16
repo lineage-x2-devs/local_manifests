@@ -5,6 +5,9 @@
   <project name="LineageOS/android_device_leeco_x2" path="device/leeco/x2" remote="github" revision="lineage-16.0"/>
   <project name="LineageOS/android_device_leeco_zl1" path="device/leeco/zl1" remote="github" revision="lineage-16.0"/>
 
+  <!-- dependencies -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0"/>
+  
   <!-- kernel -->
   <project name="LineageOS/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="lineage-16.0"/>
 
