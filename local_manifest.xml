@@ -7,10 +7,7 @@
 
   <!-- dependencies -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0"/>
-  <project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" />
-  <project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" />
-  
+
   <!-- kernel -->
   <project name="LineageOS/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="lineage-16.0"/>
 
