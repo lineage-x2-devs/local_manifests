@@ -12,7 +12,8 @@
   <project name="LineageOS/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="lineage-16.0"/>
 
   <!-- vendor / blobs -->
-  <!-- we are currently using leeco-devs for 16.0 bring up. Will switch to TheMuppets once bring up is done.
-  <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="lineage-16.0"/> -->
-  <project name="leeco-devs/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="lineage-16.0"/>
+  <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="lineage-16.0"/>
+  
+  <!-- we use leeco-devs for pending commits
+  <project name="leeco-devs/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="lineage-16.0"/> -->
 </manifest>
