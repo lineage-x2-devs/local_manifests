@@ -1,13 +1,10 @@
 #!/bin/bash
 source build/envsetup.sh
 
-# hardware/qcom/power
-repopick 237769; # power: Add specific powerhal for msm8937
-repopick 237770; # power: msm8937: Update power profile settings
-repopick 237002; # power: Handle launch and interaction hints for perf HAL platforms
-repopick 237771; # power: Build with with BOARD_VNDK_VERSION
 
-# device/leeco/msm8996-common & zl1
+
+
+# device/leeco/msm8996-common
 repopick --topic leeco-msm8996-p
 
 # device/leeco/x2
