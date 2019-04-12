@@ -13,6 +13,7 @@ Starting from zero:
     mkdir -p .repo/local_manifests
     curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/local_manifest.xml > .repo/local_manifests/my_manifest.xml
     repo sync
+    # OPTIONAL to use repopick unless you want to test WIP commits
     curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/repopick.sh > repopick.sh
     . repopick.sh
 
@@ -21,6 +22,7 @@ If you've already synced Lineage-Sources:
     mkdir -p .repo/local_manifests
     curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/local_manifest.xml > .repo/local_manifests/my_manifest.xml
     repo sync
+    # OPTIONAL to use repopick unless you want to test WIP commits
     curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/repopick.sh > repopick.sh
     . repopick.sh
 
