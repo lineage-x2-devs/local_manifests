@@ -29,9 +29,9 @@ If you've already synced Lineage-Sources:
 Building
 ----------
     cd ~/android/lineage
-    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/clean_x2_build.sh > clean_x2_build.sh
-    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/dirty_x2_build.sh > dirty_x2_build.sh
-    . clean_x2_build.sh // for clean builds
-    . dirty_x2_build.sh // for dirty builds
+    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/x2_clean_build.sh > x2_clean_build.sh
+    curl https://raw.githubusercontent.com/lineage-o-x2/local_manifests/lineage-16.0/x2_dirty_build.sh > x2_dirty_build.sh
+    . x2_clean_build.sh // for clean builds
+    . x2_dirty_build.sh // for dirty builds
 
 I made these modified scripts for convenience plus logs terminal output to files for easy scrolling later in your favorite text editor.
