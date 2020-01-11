@@ -31,6 +31,8 @@ Building
     cd ~/android/lineage
     curl https://raw.githubusercontent.com/lineage-x2-devs/local_manifests/lineage-17.1/x2_clean_build.sh > x2_clean_build.sh
     curl https://raw.githubusercontent.com/lineage-x2-devs/local_manifests/lineage-17.1/x2_dirty_build.sh > x2_dirty_build.sh
+    curl https://raw.githubusercontent.com/lineage-x2-devs/local_manifests/lineage-17.1/x2_clean_build.sh > zl1_clean_build.sh
+    curl https://raw.githubusercontent.com/lineage-x2-devs/local_manifests/lineage-17.1/x2_dirty_build.sh > zl1_dirty_build.sh
     . x2_clean_build.sh // for x2 clean builds
     . x2_dirty_build.sh // for x2 dirty builds
 
