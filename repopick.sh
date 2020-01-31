@@ -9,5 +9,3 @@ source build/envsetup.sh
 
 # device/leeco/zl1
 # repopick --topic leeco-zl1-17
-
-repopick 263905 # init: Add vendor_load_persist_properties hook
