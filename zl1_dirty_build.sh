@@ -20,6 +20,9 @@ source build/envsetup.sh
 # a dirty build
 # make -j9 ARCH=arm clean
 
+# clean out dir's images and staging directories
+make installclean
+
 # fire up the building process and also log stdout
 # and stderrout
 breakfast lineage_zl1-userdebug 2>&1 | tee zl1_breakfast.log && \
